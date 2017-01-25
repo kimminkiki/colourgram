@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/mainmenu"
+        android:title="title"
+        android:alphabeticShortcut="a" />
+
+    <item android:id="@+id/item2"
+        android:title="title2" />
+
+       <item android:id="@+id/submenu"
+           android:title="subtitle">
+           <menu>
+               <item android:id="@+id/id1"
+                   android:title="item11"/>
+
+           </menu>
+
+       </item>
+</menu>

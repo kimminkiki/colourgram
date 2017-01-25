@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "571023304139",
+    "firebase_url": "https://colourgram-e964d.firebaseio.com",
+    "project_id": "colourgram-e964d",
+    "storage_bucket": "colourgram-e964d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571023304139:android:f6bc119d26236f4e",
+        "android_client_info": {
+          "package_name": "com.m.colourgram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571023304139-30gqso9lr25aud1mppn1du5ld4s4uh1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoqn0o0dEH-gaiwGDcflPc5tnwcp8wOEk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

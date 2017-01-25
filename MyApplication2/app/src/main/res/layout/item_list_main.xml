@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/basic_padding"
+    android:paddingRight="@dimen/basic_padding"
+    android:paddingTop="@dimen/basic_padding" >
+
+    <RelativeLayout
+        android:id="@+id/layout_colorday"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/color_navy">
+        <TextView
+            android:id="@+id/text_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentTop="true"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/text_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="-20dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="#ffffff"
+            android:textSize="60sp" />
+        <TextView
+            android:id="@+id/text_mood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/text_date"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/basic_margin_content"
+            android:layout_marginRight="@dimen/basic_margin_content"
+            android:textColor="#ffffff"
+            android:textSize="15sp"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/white"></RelativeLayout>
+
+</LinearLayout>

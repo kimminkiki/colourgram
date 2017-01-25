@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">colourgram</string>
+    <string name="version">1.0.0</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <string-array name="color_list_code">
+        <item>#F1C40F</item>
+        <item>#27AE60</item>
+        <item>#3498DB</item>
+        <item>#34495E</item>
+        <item>#E67E22</item>
+        <item>#E74C3C</item>
+        <item>#FDD7E4</item>
+        <item>#ECF0F1</item>
+        <item>#7F8C8D</item>
+    </string-array>
+</resources>
